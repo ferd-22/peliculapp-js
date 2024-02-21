@@ -1,0 +1,85 @@
+body {
+  
+  background-image: url(./5-tecnologias-salas-de-cine-ScreenX.webp);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h3 {
+    border-radius: 5px;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #f5f5f573;
+    
+  }
+  
+  h1 {
+    color: #ba0000;
+    font-family: fantasy;
+    font-size: 70px;
+    font-weight: 300;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #5b5050b5;
+    color: antiquewhite;
+  }
+
+  input::placeholder {
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px
+  }
+  
+  #results {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .movie {
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f573;
+    border-radius: 5px;
+    font-family: sans-serif;
+  }
+  
+  .movie img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .movie h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .movie p {
+    margin: 5px 0;
+  }
+  
